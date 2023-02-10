@@ -4,9 +4,10 @@ margin: auto;
 }
 section{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: stretch;
     flex-flow: row wrap;
-    flex: 30% 30%;
+    flex: 0 0 calc(50%-10px);
 }
 img{
     width: 50%;
