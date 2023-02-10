@@ -8,13 +8,16 @@ margin: auto;
 section{
     display: flex;
     justify-content: space-around;
-    align-items: stretch;
-    flex-flow: row wrap;
-    flex: 0 0 calc(33%-10px);
+    align-item: stretch;
+    flex-flow:row wrap;
+    
     align-items: flex-start;
+    gap: 10px;
+    flex: calc(50% - 0px);
 }
 article{
     display: flex;
+    
     
 }
 img{
