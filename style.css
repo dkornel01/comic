@@ -1,8 +1,13 @@
 main{
-
+width: 80%;
+margin: auto;
 }
 section{
     display: flex;
     justify-content: center;
-    flex-flow: wrap row;
+    flex-flow: row wrap;
+    flex: 30% 30%;
+}
+img{
+    width: 50%;
 }
