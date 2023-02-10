@@ -3,6 +3,7 @@
 }
 main{
 margin: auto;
+background-color: darkgray;
 }
 section{
     display: flex;
@@ -32,8 +33,11 @@ article:nth-last-of-type(1) {
     order:-1 ;
   }
 article{
-    flex:0 0 calc(33% - 10px);
+    flex: 0 calc(33% - 10px);
 }
 img{
     width: 100%;
+}
+nav{
+    margin: 100px;
 }
