@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
 main{
 margin: auto;
 background-color: darkgray;
@@ -13,6 +16,9 @@ section{
     align-items: flex-start;
     gap: 10px;
     
+}
+header{
+    text-align: center;
 }
 article:nth-last-of-type(1) {
     order:-1 ;
