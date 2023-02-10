@@ -4,10 +4,15 @@ margin: auto;
 }
 section{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: stretch;
     flex-flow: row wrap;
-    flex: 0 0 calc(50%-10px);
+    flex: 0 0 calc(33%-10px);
+    align-items: flex-start;
+}
+article{
+    display: flex;
+    
 }
 img{
     width: 50%;
