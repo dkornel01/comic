@@ -3,6 +3,7 @@
 }
 body{
     background-color: black;
+    color: white;
 }
 main{
 margin: auto;
@@ -46,4 +47,10 @@ img{
 }
 nav{
     margin: 100px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap:10px
 }
